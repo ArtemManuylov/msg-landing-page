@@ -1,0 +1,15 @@
+//шрифт
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body{
+    font-family: $font-main;
+    color: $black-text;
+    font-size: 15px;
+    background-color: $bg-color;
+}
+a{
+    color: $white-text;
+    &:hover{
+        color:  #8E8B8B;
+    }
+}
