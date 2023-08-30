@@ -5,11 +5,43 @@ body{
     font-family: $font-main;
     color: $black-text;
     font-size: 15px;
-    background-color: $bg-color;
+    background-color: #8E8B8B;
 }
 a{
     color: $white-text;
     &:hover{
         color:  #8E8B8B;
+    }
+}
+.big-container{
+    width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner{
+    min-height: 759px;
+    display: flex;
+}
+.nav{
+    min-width: 222px;
+    background-color: $bg-color-nav;
+    padding: 30px 80px 30px 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .nav__list-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .phone{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .phone-link{
+        display: flex;
+        align-items: baseline;
     }
 }
