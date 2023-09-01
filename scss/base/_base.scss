@@ -8,12 +8,13 @@ body{
 }
 a{
     color: $white-text;
+    transition: color 0.2s ease-in;
     &:hover{
         color:  #8E8B8B;
     }
 }
 .big-container{
-    width: 1630px;
+    display: block;
     margin: 0 auto;
-    padding: 0 15px;
-}
+    max-width: 1600px;
+};

@@ -6,6 +6,8 @@ $bg-color: #E5E5E5;
 $bg-color-secondary: #FFFFFF;
 $bg-color-nav: #070A23;
 $bg-color-info: #FBFBFB;
+$bg-color-btn: #0318DB;
+$color-btn-hover: #0319dbd6;
 $info-title-color: #0E0D30;
 $data-color: #959292;
 $title-color: #111111;
@@ -19,6 +21,13 @@ $white-text: #FFFFFF;
     justify-content: space-between;
 }
 @mixin before-line{
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 1px;
+    background: #0E0D30;
+}
+@mixin before-line-soc{
     content: '';
     position: absolute;
     width: 38px;
