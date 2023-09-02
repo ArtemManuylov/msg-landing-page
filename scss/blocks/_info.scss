@@ -1,0 +1,25 @@
+.title-sec{
+    @include title;
+    margin-top: 87px;
+}
+.info__inner{
+    display: flex;
+    padding: 25px 0 90px;  
+};
+.sub-title{
+    @include sub-title;
+    margin-bottom: 25px;
+};
+.text{
+    max-width: 685px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
