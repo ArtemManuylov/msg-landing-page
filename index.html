@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <big-container class="big-container">
             <div class="header__inner">
                 <nav class="nav">
@@ -20,10 +20,10 @@
                     </div>
                     <div class="nav__list">
                         <ul class="nav__list-inner">
-                            <li class="list__nav-item"><a href="#">Главное</a></li>
-                            <li class="list__nav-item"><a href="#">О компании</a></li>
-                            <li class="list__nav-item"><a href="#">Наши преимущества</a></li>
-                            <li class="list__nav-item"><a href="#">ЖК «Ривьера»</a></li>
+                            <li class="list__nav-item"><a href="#header">Главное</a></li>
+                            <li class="list__nav-item"><a href="#info">О компании</a></li>
+                            <li class="list__nav-item"><a href="#advan">Наши преимущества</a></li>
+                            <li class="list__nav-item"><a href="#filter">Познакомимся ближе</a></li>
                             <li class="list__nav-item"><a href="#">Заказать звонок</a></li>
                         </ul>
                     </div>
@@ -101,44 +101,51 @@
         </big-container>
     </header>
     <main class="main">
-        <section class="info">
+        <section id="info" class="info">
             <div class="container">
-                <h1 class="title-sec">
+                <h2 class="title-sec">
                     НЕМНОГО О КОМПАНИИ
-                </h1>
+                </h2>
                 <div class="info__inner">
                     <div class="info__content">
                         <div class="info__text-inner">
-                            <h2 class="sub-title">
+                            <h3 class="sub-title">
                                 Наша история
-                            </h2>
+                            </h3>
                             <p class="text">
-                                Компания была основана в 2004 году и первоначально специализировалась на общестроительных
-                                работах и устройстве инженерных сетей. С 2007 года и по сегодняшний день компания выполняет
+                                Компания была основана в 2004 году и первоначально специализировалась на
+                                общестроительных
+                                работах и устройстве инженерных сетей. С 2007 года и по сегодняшний день компания
+                                выполняет
                                 весь комплекс услуг, начиная с проектирования и получение разрешения на строительство до
-                                ввода объекта в эксплуатацию и постановкой на кадастровый учет. Нашими специалистами были
+                                ввода объекта в эксплуатацию и постановкой на кадастровый учет. Нашими специалистами
+                                были
                                 построены тысячи квадратных метров площадей разного назначения: многоквартирные дома,
                                 торгово-офисные центры, частные коттеджи, а также объекты социального назначения.
                                 <br>
                                 <br>
-                                В настоящее время компания «Capital Group» имеет колоссальный строительный опыт, располагает
-                                квалифицированными рабочими кадрами, собственной строительной техникой и оборудованием. Всё
+                                В настоящее время компания «Capital Group» имеет колоссальный строительный опыт,
+                                располагает
+                                квалифицированными рабочими кадрами, собственной строительной техникой и оборудованием.
+                                Всё
                                 это позволяет качественно выполнять задачи любой сложности в установленные сроки.
                                 <br>
                                 <br>
-                                Профессионализм и безупречная деловая репутация — вот те аспекты, которыми мы по праву можем
+                                Профессионализм и безупречная деловая репутация — вот те аспекты, которыми мы по праву
+                                можем
                                 гордиться.
                                 <br>
                                 <br>
-                                В настоящее время компания «Capital Group» имеет колоссальный строительный опыт, располагает
+                                В настоящее время компания «Capital Group» имеет колоссальный строительный опыт,
+                                располагает
                                 квалифицированными рабочими кадрами, собственной строительной техникой и оборудованием.
                             </p>
                         </div>
                     </div>
                     <div class="info-stat">
-                        <h2 class="sub-title">
+                        <h3 class="sub-title stat-title">
                             Построенно и реализованно
-                        </h2>
+                        </h3>
                         <div class="info__stat-inner">
                             <div class="item-box">
                                 <div class="stat-item">
@@ -146,7 +153,7 @@
                                         28
                                     </p>
                                     <div class="item-name">
-                                        Жилых комплексов 
+                                        Жилых комплексов
                                     </div>
                                 </div>
                                 <div class="stat-item">
@@ -154,7 +161,7 @@
                                         14
                                     </p>
                                     <div class="item-name">
-                                        Офисных зданий 
+                                        Офисных зданий
                                     </div>
                                 </div>
                                 <div class="stat-item">
@@ -186,6 +193,101 @@
                     </div>
                     <div class="img-info">
                         <img src="./img/img-info.png" alt="img-info">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="advan" class="advan">
+            <div class="container">
+                <div class="advan__inner">
+                    <h2 class="title-sec title-advan">
+                        НАШИ ПРЕИМУЩЕСТВА
+                    </h2>
+                    <div class="advan__item">
+                        <div class="card">
+                            <img class="card__icon" src="./img/team-icon.png" alt="card-icon">
+                            <h3 class="title-card">
+                                КОМАНДА
+                            </h3>
+                            <p class="text__card">
+                                Более 150 профессиональных
+                                сотрудника в штате
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img class="card__icon" src="./img/project-icon.png" alt="card-icon">
+                            <h3 class="title-card">
+                                ПРОЕКТЫ
+                            </h3>
+                            <p class="text__card">
+                                Большой выбор качественной,
+                                проверенной недвижимости
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img class="card__icon" src="./img/condition-icon.png" alt="card-icon">
+                            <h3 class="title-card">
+                                УСЛОВИЯ ПОКУПКИ
+                            </h3>
+                            <p class="text__card">
+                                Выгодные условия покупки
+                                для клиентов
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img class="card__icon" src="./img/reliability-icon.png" alt="card-icon">
+                            <h3 class="title-card">
+                                НАДЕЖНОСТЬ
+                            </h3>
+                            <p class="text__card">
+                                Пакет документов и высокое
+                                качество строительства
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <section id="filter" class="filter">
+            <div class="big-container">
+                <div class="filter__inner">
+                    <form class="form__filter">
+                        <h2 class="title-sec form__title">
+                            ПОЗНАКОМИМСЯ БЛИЖЕ
+                        </h2>
+                        <h3 class="sub-title__form">
+                            Город строительства
+                        </h3>
+                        <div class="buttton__box">
+                            <button class="btn__form active">Москва</button>
+                            <button class="btn__form not__active">Санкт-Петербург</button>
+                            <button class="btn__form not__active">Екатеринбург</button>
+                        </div>
+                        <div class="input__box">
+                            <div class="input__item">
+                                <h4 class="title-input">
+                                    Колличество этажей
+                                </h4>
+                                <input class="input__range" type="range" min="10" max="120" value="24">
+                            </div>
+                            <div class="input__item">
+                                <h4 class="title-input">
+                                    Срок сздачи (мес.)
+                                </h4>
+                                <input class="input__range" type="range" min="0" max="24" value="14">
+                            </div>
+                        </div>
+                        <button class="reset__btn">Сбросить фильтр</button>
+                    </form>
+                    <div class="content">
+                        <div class="enter__content">
+                            <h3 class="enter__titel">
+                                ЖК «Ривьера»
+                            </h3>
+                            <p class="enter__text">
+                                Москва 12 этажей Срок сдачи: 15 месяцев
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

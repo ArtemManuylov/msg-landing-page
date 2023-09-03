@@ -1,0 +1,36 @@
+.advan{
+    background-image: url(../../img/bg-advan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.advan__inner{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.title-advan{
+    color: $white-text;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.advan__item{
+    display: flex;
+    justify-content: space-between;
+    .card{
+        padding: 20px 59px 48px;
+        background-color: $white-text;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.4px;
+        max-width: 319px;
+        .title-card{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 2.25px;
+        }
+    }
+}
+

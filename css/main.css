@@ -293,6 +293,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: 4.05px;
   margin-top: 87px;
+  text-transform: uppercase;
 }
 
 .info__inner {
@@ -308,6 +309,10 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.stat-title {
+  margin-left: 30px;
+}
+
 .text {
   max-width: 685px;
   font-size: 15px;
@@ -319,4 +324,126 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 28px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  margin-left: 30px;
+  margin-right: 91px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
+
+.num {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border: 4px solid #000000;
+  border-radius: 10px;
+  padding: 3px 0 3px 26px;
+}
+
+.advan {
+  background-image: url(../../img/bg-advan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.advan__inner {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.title-advan {
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.advan__item {
+  display: flex;
+  justify-content: space-between;
+}
+.advan__item .card {
+  padding: 20px 59px 48px;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  max-width: 319px;
+}
+.advan__item .card .title-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2.25px;
+}
+
+.filter__inner {
+  display: flex;
+}
+
+.form__filter {
+  padding: 90px 98px 92px;
+}
+.form__filter .form__title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.form__filter .sub-title__form {
+  margin-bottom: 25px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+}
+.form__filter .buttton__box {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 31px;
+}
+.form__filter .buttton__box .btn__form {
+  font-weight: 300;
+  padding: 3px 22.3px 4px;
+  border: 1px solid #514F4F;
+}
+.form__filter .buttton__box .not__active {
+  color: #9F9E9E;
+}
+.form__filter .input__item {
+  margin-bottom: 40px;
+}
+.form__filter .input__item .title-input {
+  margin-bottom: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+}
+.form__filter .reset__btn {
+  color: #858181;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(179, 176, 176);
+}
+.form__filter .input__range {
+  -webkit-appearance: none;
+  background-color: #000000;
+  height: 1px;
+  width: 100%;
+}
+.form__filter .input__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #000000;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
