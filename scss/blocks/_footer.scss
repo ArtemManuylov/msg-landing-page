@@ -1,0 +1,38 @@
+.footer{
+    background-color: $bg-color-footer;
+}
+.footer__wrapper{
+    padding: 124px 0 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__log{
+    display: flex;
+    gap: 51px;
+    .text__footer{
+        font-size: 12px;
+        font-weight: 300;
+        color: $white-text;
+    }
+}
+.list__fotter{
+    display: flex;
+    gap: 33px;
+}
+.phone{
+    display: flex;
+    gap: 10px;
+    .phone-link{
+        display: flex;
+        align-items: baseline;
+    }
+}
+.btn_phone{
+    padding: 10px 33px;
+    border: 2px solid $white-text;
+    color: $white-text;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}

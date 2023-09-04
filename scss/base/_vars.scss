@@ -7,6 +7,7 @@ $bg-color-secondary: #FFFFFF;
 $bg-color-nav: #070A23;
 $bg-color-info: #FBFBFB;
 $bg-color-btn: #0318DB;
+$bg-color-footer: #333131;
 $color-btn-hover: #0319dbd6;
 $info-title-color: #0E0D30;
 $data-color: #959292;
@@ -16,6 +17,7 @@ $white-text: #FFFFFF;
 $color-border:  #514F4F;
 $not-active:#9F9E9E;
 $color-reset:#858181;
+$enter-color:rgba(255, 255, 255, 0.40);
 
 //flexbox mixin
 @mixin flex-box{

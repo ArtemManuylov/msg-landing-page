@@ -446,4 +446,87 @@ a:hover {
   height: 14px;
   width: 14px;
   cursor: pointer;
+}
+
+.content {
+  background-image: url(../../img/bg-enter.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.content .content__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 9px 15.5px 21px;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+.content .content__wrapper .enter__titel {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  margin-bottom: 8px;
+}
+.content .content__wrapper .enter__text {
+  font-weight: 300;
+  letter-spacing: 1.95px;
+  margin-right: 27.2px;
+  position: relative;
+}
+.content .content__wrapper .enter__text::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background: #737272;
+  top: -100%;
+  left: 105%;
+}
+
+.footer {
+  background-color: #333131;
+}
+
+.footer__wrapper {
+  padding: 124px 0 123px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__log {
+  display: flex;
+  gap: 51px;
+}
+.footer__log .text__footer {
+  font-size: 12px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.list__fotter {
+  display: flex;
+  gap: 33px;
+}
+
+.phone {
+  display: flex;
+  gap: 10px;
+}
+.phone .phone-link {
+  display: flex;
+  align-items: baseline;
+}
+
+.btn_phone {
+  padding: 10px 33px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
 }/*# sourceMappingURL=main.css.map */

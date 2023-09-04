@@ -59,6 +59,43 @@
         cursor: pointer;
     }
 }
+.content{
+    background-image: url(../../img/bg-enter.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    .content__wrapper{
+        display: flex;
+        align-items: center;
+        padding: 9px 15.5px 21px;
+        background-color: $enter-color;
+        backdrop-filter: blur(15px);
+        .enter__titel{
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 2.4px;
+            margin-bottom: 8px;
+        }
+        .enter__text{
+            font-weight: 300;
+            letter-spacing: 1.95px;
+            margin-right: 27.2px;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 40px;
+                background: #737272;
+                top: -100%;
+                left: 105%;
+            }
+        }
+    }
+}
 
 
 
