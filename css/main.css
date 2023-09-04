@@ -347,7 +347,7 @@ a:hover {
 }
 
 .advan {
-  background-image: url(../../img/bg-advan.png);
+  background-image: url(./../img/bg-advan.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -449,7 +449,7 @@ a:hover {
 }
 
 .content {
-  background-image: url(../../img/bg-enter.png);
+  background-image: url(./../img/bg-enter.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
